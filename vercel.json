@@ -4,8 +4,7 @@
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
-  "regions": [
-    "sao1"
+
   ],
   "functions": {
     "api/**/*.js": {
