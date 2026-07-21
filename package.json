@@ -1,0 +1,43 @@
+{
+  "name": "iron-wood-decor",
+  "version": "1.0.0",
+  "description": "Landing page para marcenaria autoral Iron Wood Decor - Manaus-AM",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npm run build",
+    "lint:html": "html-validate index.html",
+    "lint:css": "stylelint css/**/*.css",
+    "lint:js": "eslint js/**/*.js",
+    "lighthouse": "lighthouse index.html --view",
+    "test:a11y": "pa11y index.html"
+  },
+  "keywords": [
+    "marcenaria",
+    "madeira",
+    "móveis",
+    "Manaus",
+    "landing-page",
+    "design",
+    "portfolio"
+  ],
+  "author": "Iron Wood Decor",
+  "license": "MIT",
+  "devDependencies": {
+    "@htmlhint/htmlhint": "^1.1.4",
+    "eslint": "^8.50.0",
+    "stylelint": "^15.11.0",
+    "lighthouse": "^10.4.0",
+    "pa11y": "^6.3.0",
+    "html-validate": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/iron-wood-decor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/iron-wood-decor/issues"
+  },
+  "homepage": "https://ironwooddecor.com"
+}

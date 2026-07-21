@@ -1,0 +1,30 @@
+# Iron Wood Decor - robots.txt
+# Allow crawling for all search engines
+
+User-agent: *
+Allow: /
+Allow: /public/
+Disallow: /admin/
+Disallow: /.env*
+Disallow: /*.json
+Disallow: /*.log
+Disallow: /.*
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://ironwooddecor.com/sitemap.xml
+
+# Specific rules for popular crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
