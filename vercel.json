@@ -4,7 +4,6 @@
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
-  "directoryListing": false,
   "regions": [
     "sao1"
   ],
